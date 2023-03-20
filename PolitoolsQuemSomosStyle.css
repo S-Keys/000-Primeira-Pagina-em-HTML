@@ -1,0 +1,116 @@
+﻿body {
+    background: rgb(255,255,255);
+    font-size: 19px;
+    font-family: Book Antiqua;
+    margin: 0px
+}
+
+h1{
+    margin: 0px;
+}
+
+header {
+    background: rgb(241,218,50);
+    padding: 0px;
+    padding-top: 5px;
+}
+
+#logo {
+    margin-right: auto;
+    width: 25%;
+}
+
+.caixatopo {
+    position: relative;
+    width: 900px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 39px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: rgb(0,0,0);
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(255,255,255);
+}
+
+#topopagina {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%
+}
+
+.titulocentralizado {
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 1px;
+}
+
+p {
+    text-align: center;
+    text-justify: auto;
+    margin-top: 10px;
+    margin-bottom: 14px;
+    background: rgb(250,250,250);
+}
+
+#meiapagina {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%
+}
+
+#objetivo {
+    font-size: 18px
+}
+
+strong {
+    color: rgb(241,218,50);
+    font-family: Zen Dots;
+}
+
+em {
+    color: rgb(0,0,0);
+    font-weight:bold;
+}
+
+.diferencial {
+    background: rgb(241,218,50);
+}
+
+footer {
+    text-align: center;
+    background: rgb(0,0,0);
+    padding: 10px 0;
+    color: rgb(255,255,255);
+    border-bottom: 12px;
+}
+
+.copyrights {
+    font-size: 13px;
+    padding-top: 5px;
+}
+
+p1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 14px;
+    background: rgb(0,0,0);
+}

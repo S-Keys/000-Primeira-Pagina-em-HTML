@@ -1,0 +1,43 @@
+﻿body {
+    background: rgb(255,255,255)
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%
+}
+
+h1 {
+    text-align: center
+}
+
+#topopagina {
+    width: 100%;
+}
+
+p {
+    text-align: center; text-justify
+    background: rgb(250,250,250)
+}
+
+#objetivo {
+    font-size: 17px
+}
+
+strong{
+    color: rgb(241,218,50)
+}
+
+em strong {
+    color: rgb(0,0,0)
+}
+
+.itens{
+    font-style:italic
+}
+
+.diferencial {
+    background: rgb(241,218,50)
+}

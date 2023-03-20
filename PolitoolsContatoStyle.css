@@ -1,0 +1,170 @@
+﻿body {
+    background: rgb(255 255 255);
+    font-size: 19px;
+    font-family: Book Antiqua;
+}
+
+header {
+    background: rgb(241,218,50);
+    padding:5px 0;
+}
+
+#logo {
+    margin-right: auto;
+    width: 25%;
+}
+
+.caixatopo {
+    position: relative;
+    width:900px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 60px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: rgb(0,0,0);
+    font-weight:bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(255,255,255);
+}
+
+p {
+    font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    background: rgb(0,0,0);
+    padding: 5px 0;
+    color: rgb(255,255,255);
+    border-bottom: 12px;
+}
+
+.copyrights {
+    font-size: 13px;
+    padding-top: 5px;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display:block;
+    margin: 0 0 8px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 3px 5px;
+    width: 40%;
+}
+
+.checkbox{
+    margin: 20px 0px;
+}
+
+.enviar {
+    width: 20%;
+    height: 50px;
+    border: 4px groove rgb(241,218,50);
+    border-radius: 15px;
+    background: rgb(255,255,255);
+    color: rgb(0,0,0);
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Book Antiqua';
+    transition: 300ms;
+    cursor:pointer;
+}
+
+.enviar:hover{
+    background:rgb(0,0,0);
+    color: rgb(241,218,50);
+    transform:scale(1.05);
+}
+
+table {
+    text-align:center;
+    margin: 0 0 30px;
+}
+
+thead {
+    background: rgb(0,0,0);
+    color: rgb(255,255,255);
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px groove rgb(241,218,50);
+    padding: 4px 10px;
+}
+
+#hora{
+    color:red;
+}
+
+@media screen and (max-width: 480px) {
+    main {
+        font-size: 0.9em;
+        margin: 10px;
+    }
+    .caixatopo, main {
+        width: auto;
+        text-align: center;
+    }
+
+    #logo {
+        vertical-align: central;
+        width: 45%;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    header ul a {
+        font-size: 15px;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .input-padrao {
+        display: block;
+        margin: 0 0 20px;
+        padding: 0;
+        width: 100%;
+    }
+
+    .enviar {
+        width: 50%;
+    }
+
+    table {
+        text-align: center;
+        margin: auto;
+    }
+}
